@@ -1,4 +1,4 @@
-# Workflow + Configs
+# Daily Workflow + Configs
 
 ### Terminal/Editor
 - nvim: general text editing
@@ -9,7 +9,6 @@
 - iTerm2: Terminal emulator
 - oh-my-zsh: zsh
 - zoxide: cd replacement
-- fzf: fuzzy finding
 
 ### Computer Interaction
 - yabai: window tiling manager

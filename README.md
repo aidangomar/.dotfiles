@@ -1,7 +1,5 @@
 # Workflow + Configs
 
----
-
 ### Terminal/Editor
 - nvim: general text editing
     - telescope: live grep, find files

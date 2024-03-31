@@ -1,4 +1,4 @@
-# Workflows + Configs
+# Workflows
 
 ### Terminal/Editor
 - nvim: general text editing
@@ -13,7 +13,7 @@
 ### Computer Interaction
 - yabai: window tiling manager
 - skhd: shortcuts for tiling/navigating windows
-- vimium: vim keybindings for chrome
+- vimium: vim keybindings for chrome/arc
 - homerow: click & scroll on any application without using mouse
 
 ### Notetaking

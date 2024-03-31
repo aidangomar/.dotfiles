@@ -1,21 +1,21 @@
 # Workflows
 
 ### Terminal/Editor
-- nvim: general text editing
-    - telescope: live grep, find files
-    - coc-nvim: lsp
-    - vim-tmux-navigator: tmux & vim interop
-- tmux: Terminal multiplexing, sessions
-- iTerm2: Terminal emulator
-- oh-my-zsh: zsh
-- zoxide: cd replacement
+- Nvim: general text editing
+    - Telescope: live grep, find files
+    - Coc-nvim: lsp
+    - Vim-tmux-navigator: tmux & vim interop
+- Tmux: terminal multiplexing, sessions
+- iTerm2: terminal emulator
+- Oh-my-zsh: zsh
+- Zoxide: cd replacement
 
 ### Computer Interaction
-- yabai: window tiling manager
-- skhd: shortcuts for tiling/navigating windows
-- vimium: vim keybindings for chrome/arc
-- homerow: click & scroll on any application without using mouse
+- Yabai: window tiling manager
+- Skhd: shortcuts for tiling/navigating windows
+- Vimium: vim keybindings for chrome/arc
+- Homerow: click & scroll on any application without using mouse
 
 ### Notetaking
-- obsidian: general notetaking
-- zathura: pdf viewer with vim keybindings
+- Obsidian: general notetaking
+- Zathura: pdf viewer with vim keybindings

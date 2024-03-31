@@ -1,4 +1,4 @@
-# Daily Workflow + Configs
+# Workflows + Configs
 
 ### Terminal/Editor
 - nvim: general text editing

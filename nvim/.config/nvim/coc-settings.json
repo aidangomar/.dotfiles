@@ -1,0 +1,5 @@
+{
+	"diagnostic.checkCurrentLine": true,
+	"diagnostic.virtualText": true,
+	"clangd.fallbackFlags": [ "-std=c++20" ]
+}

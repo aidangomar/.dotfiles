@@ -1,0 +1,14 @@
+{
+  "coc.nvim": { "branch": "master", "commit": "ede39ea981f47222c5b1185592df7bb1875cec6d" },
+  "copilot.vim": { "branch": "release", "commit": "9484e35cf222e9360e05450622a884f95c662c4c" },
+  "lazy.nvim": { "branch": "main", "commit": "31ddbea7c10b6920c9077b66c97951ca8682d5c8" },
+  "lualine.nvim": { "branch": "master", "commit": "b5e8bb642138f787a2c1c5aedc2a78cb2cebbd67" },
+  "luarocks.nvim": { "branch": "main", "commit": "d73f4bbbeea9eeb9b66a0c6431db402654f43cb8" },
+  "neorg": { "branch": "main", "commit": "7c5464722a4e8240efd9ecd7bef85d38f94c1ab5" },
+  "nvim-treesitter": { "branch": "master", "commit": "cc0e29727a9651e27869b7444e835c44fb1e7b4c" },
+  "nvim-web-devicons": { "branch": "master", "commit": "3ee60deaa539360518eaab93a6c701fe9f4d82ef" },
+  "orgmode": { "branch": "master", "commit": "ddcfbb1e52b2ff5b90469eb13214676931a66e09" },
+  "plenary.nvim": { "branch": "master", "commit": "8aad4396840be7fc42896e3011751b7609ca4119" },
+  "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
+  "vim-tmux-navigator": { "branch": "master", "commit": "38b1d0402c4600543281dc85b3f51884205674b6" }
+}

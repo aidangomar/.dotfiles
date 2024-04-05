@@ -56,4 +56,4 @@ alias cd="z"
 alias ff="fzf --bind 'enter:become(nvim {})'"
 
 # connect to headphones via terminal
-alias airpods="blueutil --connect c4-35-d9-14-6b-95"
+alias airpods="blueutil --disconnect c4-35-d9-14-6b-95 && blueutil --connect c4-35-d9-14-6b-95"

@@ -11,12 +11,12 @@ alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
 
 # move desktops
-alt + cmd - left : yabai -m space --focus prev
-alt + cmd - right : yabai -m space --focus next
+cmd - h : yabai -m space --focus prev
+cmd - l : yabai -m space --focus next
 
 # move windows between desktops
-shift + cmd - h : yabai -m window --space prev; yabai -m space --focus prev 
-shift + cmd - l : yabai -m window --space next; yabai -m space --focus next
+cmd + shift - h : yabai -m window --space prev; yabai -m space --focus prev 
+cmd + shift - l : yabai -m window --space next; yabai -m space --focus next
 
 # change desktops with numbers
 cmd - 1 : yabai -m space --focus 1

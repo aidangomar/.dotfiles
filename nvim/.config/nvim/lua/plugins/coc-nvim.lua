@@ -65,7 +65,8 @@ function _G.show_docs()
         vim.api.nvim_command('!' .. vim.o.keywordprg .. ' ' .. cw)
     end
 end
-keyset("n", "K", '<CMD>lua _G.show_docs()<CR>', {silent = true})
+-- Comment out default coc-nvim <S-k> mapping
+-- keyset("n", "K", '<CMD>lua _G.show_docs()<CR>', {silent = true})
 
 
 -- Highlight the symbol and its references on a CursorHold event(cursor is idle)

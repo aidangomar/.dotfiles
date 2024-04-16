@@ -11,7 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-vim.bo.shiftwidth = 2
+vim.bo.shiftwidth = 4
 vim.wo.wrap = false
 vim.wo.number = true
 vim.wo.relativenumber = true

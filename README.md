@@ -24,4 +24,5 @@
 
 Future bindings
 - Use cmd - j/k to toggle focus between monitors if I ever start using them
+    - Change arc tabs keybinding to something else
 - Use cmd + shift - 1..9 to quick toggle monitors

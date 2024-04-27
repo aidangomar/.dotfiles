@@ -17,6 +17,7 @@ vim.wo.number = true
 vim.wo.relativenumber = true
 vim.opt.updatetime = 300
 vim.opt.encoding = "utf-8"
+vim.g.mapleader = " "
 
 vim.api.nvim_create_autocmd('BufEnter', {
   pattern = {'*.md'},

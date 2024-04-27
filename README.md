@@ -19,3 +19,9 @@
 ### Notetaking
 - Obsidian: general notetaking
 - Zathura: pdf viewer with vim keybindings
+
+---
+
+Future bindings
+- Use cmd - j/k to toggle focus between monitors if I ever start using them
+- Use cmd + shift - 1..9 to quick toggle monitors

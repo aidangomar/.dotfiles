@@ -49,18 +49,15 @@ eval "$(zoxide init zsh)"
 # less
 alias less="vim -R"
 
-# cd
+# zoxide
 alias cd="z"
-
-# fzf
-alias ff="fzf --bind 'enter:become(nvim {})'"
 
 # connect to headphones via terminal
 alias airpods="blueutil --disconnect c4-35-d9-14-6b-95 && blueutil --connect c4-35-d9-14-6b-95"
 
-# create new note
-note() {
-  note_name=$(gdate +%s%N)
-  touch "$HOME/Org/Misc/$note_name.md" > /dev/null 2>&1
-  nvim "$HOME/Org/Misc/$note_name.md" 
+# fzf over history
+function nvim-history() {
+    nvim +History
 }
+zle -N nvim-history
+bindkey '^F' nvim-history  

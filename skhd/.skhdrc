@@ -29,3 +29,6 @@ cmd - 7 : yabai -m space --focus 7
 cmd - 8 : yabai -m space --focus 8
 cmd - 9 : yabai -m space --focus 9
 
+# connect to headphones
+cmd + shift - a : blueutil --disconnect c4-35-d9-14-6b-95 && blueutil --connect c4-35-d9-14-6b-95
+

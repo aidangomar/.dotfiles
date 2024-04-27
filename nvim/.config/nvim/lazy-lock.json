@@ -1,6 +1,7 @@
 {
   "coc.nvim": { "branch": "master", "commit": "ede39ea981f47222c5b1185592df7bb1875cec6d" },
-  "copilot.vim": { "branch": "release", "commit": "9484e35cf222e9360e05450622a884f95c662c4c" },
+  "fzf": { "branch": "master", "commit": "d169c951f3abe95ac533864d3ce0515bcb89adce" },
+  "fzf.vim": { "branch": "master", "commit": "45d96c9cb1213204479593236dfabf911ff15443" },
   "lazy.nvim": { "branch": "main", "commit": "31ddbea7c10b6920c9077b66c97951ca8682d5c8" },
   "nerdtree": { "branch": "master", "commit": "f3a4d8eaa8ac10305e3d53851c976756ea9dc8e8" },
   "nvim-treesitter": { "branch": "master", "commit": "cc0e29727a9651e27869b7444e835c44fb1e7b4c" },

@@ -61,3 +61,12 @@ function nvim-history() {
 }
 zle -N nvim-history
 bindkey '^F' nvim-history  
+
+# git
+alias g="git"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git pull"
+gall() { git add . && git commit -m "$1" && git push }
+

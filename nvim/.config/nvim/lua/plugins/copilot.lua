@@ -1,4 +1,3 @@
 return {
---     disabled for now :P
---     'github/copilot.vim'
+     'github/copilot.vim'
 }

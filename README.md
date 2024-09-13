@@ -6,7 +6,7 @@
     - Coc-nvim: lsp
     - Vim-tmux-navigator: tmux & vim interop
 - Tmux: terminal multiplexing, sessions
-- iTerm2: terminal emulator
+- Alacritty: terminal emulator
 - Oh-my-zsh: zsh
 - Zoxide: cd replacement
 

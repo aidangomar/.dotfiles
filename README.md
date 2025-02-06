@@ -5,8 +5,9 @@
     - Telescope: live grep, find files
     - Coc-nvim: lsp
     - Vim-tmux-navigator: tmux & vim interop
+    - Oil: navigating through filetree with a vim buffer
 - Tmux: terminal multiplexing, sessions
-- iTerm2: terminal emulator
+- Alacritty: terminal emulator
 - Oh-my-zsh: zsh
 - Zoxide: cd replacement
 

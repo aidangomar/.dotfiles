@@ -24,6 +24,10 @@ vim.opt.tabstop = 2
 vim.opt.expandtab = true
 -- vim.g.pyindent_open_paren = 0
 
+-- still figuring out how to share clipboard across ssh
+-- vim.api.nvim_set_keymap('v', '"+y', ':!xclip -f -sel clip<CR>', { noremap = true })
+-- vim.api.nvim_set_keymap('n', '"+p', ':r!xclip -o -sel clip<CR>', { noremap = true })
+
 vim.api.nvim_create_autocmd('BufEnter', {
     pattern = {'*.md'},
     group = group,

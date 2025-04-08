@@ -1,3 +1,3 @@
 return {
-  'itchyny/calendar.vim'
+  'mattn/calendar-vim'
 }

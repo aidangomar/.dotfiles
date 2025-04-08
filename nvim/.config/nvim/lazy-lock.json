@@ -1,6 +1,6 @@
 {
   "bufferline.nvim": { "branch": "main", "commit": "5726c4e291224181903e960119a11e20ac677a0a" },
-  "calendar.vim": { "branch": "master", "commit": "66e6d0955efb6beb68912dce3ff484e8805d975c" },
+  "calendar-vim": { "branch": "master", "commit": "2083a41e2d310f9bbbbf644517f30e901f1fb04d" },
   "coc.nvim": { "branch": "master", "commit": "674482c0e0a2456f77f771f3ff7e7303552b502e" },
   "copilot.vim": { "branch": "release", "commit": "87038123804796ca7af20d1b71c3428d858a9124" },
   "fzf": { "branch": "master", "commit": "d83eb2800a09d86e17c0339d86bd1f22f68164a8" },
@@ -17,11 +17,14 @@
   "oil.nvim": { "branch": "master", "commit": "7041528bdedb350ad66e650684deec8456e053cc" },
   "orgmode": { "branch": "master", "commit": "7f975b181454c62f782dadb83c8e692dc9224ec5" },
   "plenary.nvim": { "branch": "master", "commit": "3707cdb1e43f5cea73afb6037e6494e7ce847a66" },
+  "rose-pine": { "branch": "main", "commit": "96ff3993a67356ee85d1cdab9be652cdc1c5d1ac" },
   "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
   "vim-commentary": { "branch": "master", "commit": "64a654ef4a20db1727938338310209b6a63f60c9" },
   "vim-devicons": { "branch": "master", "commit": "71f239af28b7214eebb60d4ea5bd040291fb7e33" },
+  "vim-doge": { "branch": "master", "commit": "750d17dcd5a38a6afb51ddd07ee7d3e96bab7e9e" },
   "vim-fugitive": { "branch": "master", "commit": "174230d6a7f2df94705a7ffd8d5413e27ec10a80" },
   "vim-oscyank": { "branch": "main", "commit": "4b068e5b553f907c5f6d00b0ab9e1e3b98cf71bf" },
   "vim-terraform": { "branch": "master", "commit": "174789e2f0a1c8348ae129223581760807162e82" },
-  "vim-tmux-navigator": { "branch": "master", "commit": "d847ea942a5bb4d4fab6efebc9f30d787fd96e65" }
+  "vim-tmux-navigator": { "branch": "master", "commit": "d847ea942a5bb4d4fab6efebc9f30d787fd96e65" },
+  "vimwiki": { "branch": "dev", "commit": "72792615e739d0eb54a9c8f7e0a46a6e2407c9e8" }
 }

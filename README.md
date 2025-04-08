@@ -1,24 +1,30 @@
 # Workflows
 
 ### Terminal/Editor
-- Nvim: general text editing
+- Neovim: general text editing
     - Telescope: live grep, find files
     - Coc-nvim: lsp
     - Vim-tmux-navigator: tmux & vim interop
 - Tmux: terminal multiplexing, sessions
-- iTerm2: terminal emulator
+- Ghostty: terminal emulator
 - Oh-my-zsh: zsh
 - Zoxide: cd replacement
 
 ### Computer Interaction
-- Yabai: window tiling manager
-- Skhd: shortcuts for tiling/navigating windows
-- Vimium: vim keybindings for chrome/arc
-- Homerow: click & scroll on any application without using mouse
+- Arc: browser
+- Aerospace: window tiling manager
+- Vimium: vim keybindings for arc
 
 ### Notetaking
-- Obsidian: general notetaking
-- Zathura: pdf viewer with vim keybindings
+- Obsidian: General notetaking
+- Zathura: Pdf viewer with vim keybindings
+- Calendar.nvim: Calendar
+
+---
+
+# Note
+
+I do most development on remote machines, and sometimes i have to switch between them, so I have a remote tmux config, and a local tmux config
 
 ---
 

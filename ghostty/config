@@ -1,0 +1,8 @@
+font-family = "Hack Nerd Font Mono"
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+window-decoration = false
+theme = IR_Black
+

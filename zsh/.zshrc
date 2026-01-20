@@ -12,19 +12,19 @@ alias pylint="ruff format . && ruff --fix ."
 [ -f "/Users/aidan/.ghcup/env" ] && source "/Users/aidan/.ghcup/env"
 
 # ocaml
-[[ ! -r /Users/aidan/.opam/opam-init/init.zsh ]] || source /Users/aidan/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
-source /Users/aidan/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+# [[ ! -r /Users/aidan/.opam/opam-init/init.zsh ]] || source /Users/aidan/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
+# export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # tmux
 export PATH="/opt/homebrew/bin:$PATH"
-export PATH="$HOME/.tmux/plugins/tmuxifier/bin:$PATH"
-eval "$(tmuxifier init -)"
+# export PATH="$HOME/.tmux/plugins/tmuxifier/bin:$PATH"
+# eval "$(tmuxifier init -)"
 
 # ruby
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.3
+# source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+# source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+# chruby ruby-3.1.3
 
 # LLVM
 export PATH="/opt/homebrew/Cellar/llvm/16.0.6/bin:$PATH"
@@ -64,9 +64,13 @@ bindkey '^F' nvim-history
 
 # git
 alias g="git"
-alias gs="git status"
+alias gsta="git status"
 alias ga="git add"
 alias gc="git commit"
 alias gp="git pull"
 gall() { git add . && git commit -m "$1" && git push }
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
